@@ -1,0 +1,22 @@
+Memory initialized with size 1024
+Allocated block id=1 at address=0x0
+Allocated block id=2 at address=0x64
+Allocated block id=3 at address=0x12c
+Block 2 freed and merged
+Memory layout:
+[0x0 - 0x63] USED (id=1)
+[0x64 - 0x12b] FREE
+[0x12c - 0x15d] USED (id=3)
+[0x15e - 0x3ff] FREE
+
+--- Memory Statistics ---
+Total memory: 1024
+Used memory: 150
+Free memory: 874
+Memory utilization: 14.6484%
+Internal fragmentation: 0
+External fragmentation: 22.8833%
+Allocation requests: 3
+Successful allocations: 3
+Failed allocations: 0
+--------------------------
